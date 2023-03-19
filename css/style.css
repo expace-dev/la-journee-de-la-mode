@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+@media (min-width: 650px) {
+    h3 {
+        font-size: 50px;
+    }
+}
+h3 {
+    font-weight: bold;
+    font-family: 'Coming Soon', cursive;
+
+}
+@media (max-width: 650px) {
+    section {
+        text-align: center;
+    }
+}
+.navbar {
+    background-color: #ea0071;
+    border-radius: 0px;
+    height: 20px;
+    border: 0px;
+}
+.content_navbar {
+    background-color: #ea0071;
+    height: 50px;
+}
+.button {
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #ea0071;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.button:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #9c004b;
+
+}
+
+
+.navbar-inverse .navbar-nav > li:first-child {
+    border-right: 0px;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #9c004b;
+    color: white;
+    border-right: 1px solid white;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+    border-right: 1px solid white;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.navbar-inverse .navbar-nav > li:first-child > a,
+.navbar-inverse .navbar-nav > li:first-child > a:hover {
+    background-color: #ea0071;
+    cursor: default;
+    border: 0px;
+}
+@media (min-width: 1200px) {
+    section {
+        background: url("/images/background2.jpg") no-repeat right;
+        min-height: 1184px;
+    }
+    .navbar-inverse .navbar-nav > li {
+        width: 150px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 250px;
+        height: 250px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: #ea0071;
+    }
+
+
+
+    .img_logo {
+        width: 240px;
+        height: 240px;
+        position: relative;
+        top: 5px;
+        right: 3px;
+    }
+
+    .navbar-inverse .navbar-nav > li:first-child {
+        width: 250px;
+    }
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #ea0071;
+}
+
+
+
+@media (max-width: 1200px) {
+    section {
+        min-height: 1184px;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+footer {
+    color: #818181;
+    height: 100px;
+}
+
+.index {
+    padding-top: 250px;
+}
+footer a, footer a:hover {
+    color: #818181;
+}
+
+/* Je sélectionne les <li> du menu horizontal */
+ul#partenaires li {
+    display : inline;
+    padding : 0.5em 0.5em 0.5em 0.5em; /* Pour espacer les boutons entre eux */
+}
+ul#partenaires {
+    list-style-type : none; /* Car sinon les puces se placent n'importe où */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
